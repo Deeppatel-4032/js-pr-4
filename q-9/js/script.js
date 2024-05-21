@@ -4,13 +4,19 @@
 function fun9(n) {
 
     if (n % 2 == 0) {
-        return "even";
+    
+        return "even :" + even;
     }
     else {
-        return "odd";
+        return "odd : " + odd;
     }
 
 }
 
-let result = fun9(8);
-document.getElementById("odd_even").innerHTML = result
+let even = 4;
+let odd  = 5;
+let result = fun9(even);
+let result1 = fun9(odd);
+document.getElementById("even").innerHTML = result;
+document.getElementById("odd").innerHTML = result1;
+

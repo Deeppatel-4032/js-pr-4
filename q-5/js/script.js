@@ -9,4 +9,4 @@ const fun5 = (a, b, c) => {
 }
 
 let result = fun5(1, 2, 3);
-document.getElementById("quadratic").innerHTML = result
+document.getElementById("quadratic").innerHTML = result;
