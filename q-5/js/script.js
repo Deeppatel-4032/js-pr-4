@@ -2,8 +2,8 @@
 
 
 const fun5 = (a, b, c) => {
-    //(2 x 2 ) - (4 x 1 x 3) / (2 x 1)
-    let ans = ((b * b) - (4 * a * c) ) / (2 * a);
+    //(2 x 2 ) * (4 x 1 x 3) / (2 x 1)
+    let ans = (b * b) * (4 * a * c)  / (2 * a);
     
     return ans;
 }
